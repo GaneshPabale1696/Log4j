@@ -10,10 +10,10 @@
 			<Layout type="PatternLayout"
 				pattern="%d{HH:mm:ss.SSS} [%t]%-5level %logger{36} - %msg%n" />
 		</Appender>
-	</Appenders>
+	</Appenders>	
 	<Loggers>
 		<Root level="all">
-			<AppenderRef ref="file" />
+			<AppenderRef ref="STDOUT" />
 		</Root>
 	</Loggers>
 </Configuration>
